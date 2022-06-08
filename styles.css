@@ -17,30 +17,76 @@
 .nav-item {
     padding-left: 16px;
 }
-.container-fluid {
-    background-color: grey;
-    ;
+.banner {
+    background-color: rgba(171, 170, 170, 0.399);
 }
-#col7 {
-    height: 700px;
-    background-image: url('banner.jpg');
-    background-size: 90%;
-    background-repeat: no-repeat;
+.col-banner img {
     padding: 32px 24px;
-    background-position: center;
 }
-#col7-2 {
-    height: 700px;
-    background-image: url('information-main.jpg');
-    background-size: 90%;
-    background-repeat: no-repeat;
+.col-banner {
+    width: 80%;
+}
+.col2-banner {
+    width: 20%;
+}
+.col2-banner h1 {
+    width: 60%;
+}
+.col2-banner p, button {
+    width: 40%;
+}
+.btn-primary {
+    background-color: darkgrey;
+    border-color: darkgrey;
+}
+.info {
+    background-color: white;
+}
+.col-info img {
     padding: 32px 24px;
-    background-position: center;
-
 }
-col4 {
-    background-image: url('information-orientation.jpg');
-   height: 50%;
+.col-info {
+    width: 80%;
+}
+.col-info h1 {
+    padding: 0px 24px;
+    width: 60%;
+    margin: 0;
+}
+.col-info p {
+    padding: 24px 24px 32px 24px;
+    width: 80%;
+    line-height: 1.8rem;
+    margin: 0;
+}
+.col2-info {
+    width: 20%;
+}
+.col-orientation {
+    width: 35%;
+    padding-top: 32px;
+}
+.col2-orientation {
+    width: 65%;
+}
+.col-campus {
+    width: 35%;
+    padding-top: 32px;
+}
+.col2-campus {
+    width: 65%;
+}
+.col-guest {
+    width: 35%;
+    padding-top: 32px;
+}
+.col2-guest {
+    width: 65%;
+}
+.card-img-top {
+    height: auto;
     
-
+}
+.cards {
+    height: 50%;
 }

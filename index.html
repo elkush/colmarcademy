@@ -35,86 +35,147 @@
             </nav>
         </header>
         <body>
+              <!-- Banner here -->
             <div class="container-fluid">
-                <div class="row">
-                    <div class="col-7 d-flex" id="col7"></div>
-                    <div class="col-5 d-flex flex-column justify-content-center align-items-start">
-                        <div class="row justify-content-center" id="row-start-text">
-                            <div class="col">
-                                <h1>Learn something new every day</h2>
-                            </div>
-                        </div>
-                        <div class="row" id="row-start-text">
-                            <div class="col">
-                                <p>Lorem impsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </div>
-                        </div>
-                        <div class="row" id="row-start-text">
-                            <div class="col">
-                                <button class="btn btn-primary" type="submit">Start here</button>
-                            </div>
-                        </div>
-                    </div>  
+                <div class="row banner">
+                    <div class="col col-banner">
+                        <img src="banner.jpg" alt="Three ladies writing at the table">
+                    </div>
+                    <div class="col d-flex flex-column justify-content-center col2-banner">
+                            <h1>Learn something new every day</h2>
+                            <p>Lorem impsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <button class="btn btn-primary" type="submit">Start here</button>
+                    </div> 
                 </div>
             </div>
+             <!-- Information here -->
             <div class="container-fluid bg-white">
-                <div class="row">
-                    <div class="col-7" id="col7-2"></div>
-                    <div class="col-5 d-flex flex-column justify-content-center">
-                        <div class="row py-5 my-5">
-                            <div class="col-5" id="col4">  
-                            </div>
-                            <div class="col-7">  
-                                <div class="row">Orientation date</div>
-                                <div class="row">Tue 10/11 & Wed 10/12: 8am-3pm</div>
-                                <div class="row">
-                                    <button class="btn btn-primary" type="submit">Read more</button>
-                                </div>  
-                            </div>
-                        </div>
-                        <div class="row"> 
-                            <div class="col-5">  
-                            </div>
-                             <div class="col-7"> 
-                                <div class="row">Our campus</div>
-                                <div class="row">Find which campus is close to you</div>
-                                <div class="row">
-                                    <button class="btn btn-primary" type="submit">Read more</button> 
-                            </div> 
-                        </div>  
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-7">
-                        <div class="row">
+                <div class="row info">
+                     <!-- First column starts here -->
+                    <div class="col col-info">
+                        <img src="information-main.jpg" alt="A smiling man is reading a book outside sitting on a bench">
+                        <div>
                             <h1>It doesn't hurt to keep practicing</h1>
-                        </div>
-                        <div class="row">
-                            <q>Tlkjsdlkfjlskjdflblfbslkdflksbdflksbdlk.lkhlskdhflkshdlfkhslkdfhsd.</q> 
-                        </div>
-                        <div class="row">
-                        <p>lskdjflksjdlfjsldkfjlskdjflksj</p>
+                            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas integer eget aliquet nibh. In egestas erat imperdiet sed euismod nisi porta lorem".</p>
+                            <p>Emanuel, Sr Strategist at Hiring.com</p>
                         </div>
                     </div>
-                    <div class="col-5">
-                        <div class="row">
-                            <div class="col"></div>
-                            <div class="col">  
-                                <div class="row"></div>
-                                <div class="row"></div>
-                                <div class="row"></div>
+                    <!-- Second column starts here -->
+                    <div class="col col2-info">
+                        <!-- First row starts here -->
+                        <div class="row orienation">
+                            <div class="col col-orientation">
+                                <img src="information-orientation.jpg" alt="People's shadows on the pedestrian pathway">
+                            </div>
+                            <div class="col d-flex flex-column justify-content-center col2-orientation">
+                                <h4>Orientation date</h4>
+                                <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+                                <a href="#">Read more</a>
+                            </div>
+                        </div>
+                        <!-- Second row starts here -->
+                        <div class="row campus">
+                            <div class="col col-campus">
+                                <img src="information-campus.jpg" alt="Study desks at the campus">
+                            </div>
+                            <div class="col d-flex flex-column justify-content-center col2-campus">
+                                <h4>Our campus</h4>
+                                <p>Find which campus is close to you</p>
+                                <a href="#">Read more</a>
+                            </div>
+                        </div>
+                        <!-- Third row starts here -->
+                        <div class="row guest">
+                            <div class="col col-guest">
+                                <img src="information-guest-lecture.jpg" alt="Portrait of a man wearing spectacles and in a hat">
+                            </div>
+                            <div class="col d-flex flex-column justify-content-center col2-guest">
+                                <h4>Our guest lecturer</h4>
+                                <p>Join a keynote with Oliver Sack about music in medical treatment</p>
+                                <a href="#">Read more</a>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+            <!-- Start learning here -->
+            <div class="container">
+               <div class="row cards">
+                <!-- First CARD here -->
+                    <div class="col-2">
+                        <div class="card">
+                            <img class="card-img-top" src="course-software.jpg" alt="Card image cap">
+                            <div class="card-body">
+                            <h3 class="card-title">Software engineering</h3>
+                            <p class="card-text text-uppercase">Courses</p>
+                            <p class="card-text">Web Development, Mobile Development,iOT, APIs</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Second CARD here -->
+                    <div class="col-2">
+                        <div class="card">
+                            <img class="card-img-top" src="course-computer-art.jpg" alt="Card image cap">
+                            <div class="card-body">
+                            <h3 class="card-title">Computer art</h3>
+                            <p class="card-text text-uppercase">Courses</p>
+                            <p class="card-text">Imaging & Design, Web Design, Motion Graphics & Visual Effecs, Computer Animation</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Third CARD here -->
+                    <div class="col-2">
+                        <div class="card">
+                            <img class="card-img-top" src="course-design.jpg" alt="Card image cap">
+                            <div class="card-body">
+                            <h3 class="card-title">Design</h3>
+                            <p class="card-text text-uppercase">Courses</p>
+                            <p class="card-text">User Experience Design, User Research, Visual Design</p>
+                            <div>
+                        </div>
+                    </div>
+                    <!-- Fourth CARD here -->
+                    <div class="col-2">
+                        <div class="card">
+                            <img class="card-img-top" src="course-data.jpg" alt="Card image cap">
+                            <div class="card-body">
+                            <h3 class="card-title">Data</h3>
+                            <p class="card-text text-uppercase">Courses</p>
+                            <p class="card-text">Data Science, Big Data, SQL, Data Visualisation</p>
+                            </div>
+                        </div>
+                    </div>
+                        <!-- Fifth CARD here -->
+                    <div class="col-2">
+                        <div class="card">
+                            <img class="card-img-top" src="course-business.jpg" alt="Card image cap">
+                            <div class="card-body">
+                            <h3 class="card-title">Business</h3>
+                            <p class="card-text text-uppercase">Courses</p>
+                            <p class="card-text">Profuct Develoopment, Business Development, Startup</p>
+                            </div>
+                        </div>
+                    </div>
+                        <!-- Sixth CARD here -->
+                    <div class="col-2">
+                        <div class="card">
+                            <img class="card-img-top" src="course-marketing.jpg" alt="Card image cap">
+                            <div class="card-body">
+                            <h3 class="card-title">Marketing</h3>
+                            <p class="card-text text-uppercase">Courses</p>
+                            <p class="card-text">Analytics, Content Marketing, Mobile Marketing</p>
+                            <div>
+                        </div>
+                    </div>
+               </div>        
 
 
                        
                     
 
 
-            </div>
-
+    
+<!-- Cards here -->
         </body>
     </main>
 
